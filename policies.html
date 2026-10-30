@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legal & Policies | URVARYS</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter', 'sans-serif'] }, colors: { slate: { 850: '#151e2e', 900: '#0f172a', 950: '#020617' } } } } }
+    </script>
+</head>
+<body class="bg-slate-900 text-slate-300 font-sans antialiased">
+
+    <!-- 极简导航条 -->
+    <nav class="fixed w-full z-50 bg-slate-900/90 backdrop-blur-lg border-b border-slate-800">
+        <div class="max-w-4xl mx-auto px-6 py-4 flex justify-between items-center">
+            <span class="font-black text-xl tracking-tight text-white">URVARYS Legal</span>
+            <a href="index.html" class="text-sm font-bold text-orange-500 hover:text-orange-400 transition-colors">&larr; Back to Home</a>
+        </div>
+    </nav>
+
+    <!-- 条款内容区 -->
+    <main class="max-w-4xl mx-auto px-6 pt-32 pb-20 space-y-20">
+        
+        <!-- 隐私政策 -->
+        <section id="privacy" class="scroll-mt-32">
+            <h2 class="text-3xl font-black text-white mb-6 uppercase">Privacy Policy</h2>
+            <div class="prose prose-invert prose-slate">
+                <p>At URVARYS LLC, we operate strictly B2B. We collect only the information necessary to fulfill your engineering inquiries, process CNC quotes, and handle shipping logistics (e.g., Email, Shop Address, CAD files).</p>
+                <p><strong class="text-orange-500">Confidentiality of IP:</strong> Any CAD models, napkin sketches, or DFM parameters you share with us for custom topological grippers or CNC parts are treated with strict confidentiality. We do not sell, rent, or distribute your proprietary designs or contact information to any third parties.</p>
+            </div>
+        </section>
+
+        <hr class="border-slate-800">
+
+        <!-- 服务条款 -->
+        <section id="terms" class="scroll-mt-32">
+            <h2 class="text-3xl font-black text-white mb-6 uppercase">Terms of Service</h2>
+            <div class="prose prose-invert prose-slate">
+                <p>By requesting a quote or purchasing tooling from URVARYS, you agree to the following B2B terms:</p>
+                <ul class="list-disc pl-5 space-y-2 text-slate-400 mt-4">
+                    <li><strong class="text-slate-200">Industrial Use Only:</strong> Our TC4 Titanium pins, PEEK tips, and precision components are designed for professional fabrication and robotics use.</li>
+                    <li><strong class="text-slate-200">Quote Validity:</strong> Custom CNC quotes and lead times are valid for 30 days due to raw material (Titanium/PEEK) market fluctuations.</li>
+                    <li><strong class="text-slate-200">Tolerance Standards:</strong> Unless otherwise specified in your submitted CAD drawings, our standard machining tolerance is 0.01mm.</li>
+                </ul>
+            </div>
+        </section>
+
+        <hr class="border-slate-800">
+
+        <!-- 退换货与物流 -->
+        <section id="shipping" class="scroll-mt-32">
+            <h2 class="text-3xl font-black text-white mb-6 uppercase">Shipping & Returns</h2>
+            <div class="prose prose-invert prose-slate">
+                <p><strong class="text-slate-200">Shipping (Global):</strong> Standard tooling (e.g., 16mm/5/8" fixture pins, Master Kits) ships via DHL/UPS Express. Custom CNC orders (e.g., robotic grippers) ship upon completion of DFM and fabrication (typically 2-3 weeks lead time).</p>
+                <p><strong class="text-slate-200">B2B Return Policy:</strong></p>
+                <ul class="list-disc pl-5 space-y-2 text-slate-400 mt-2">
+                    <li><strong>Standard Parts:</strong> Returns are accepted within 14 days of delivery only for unused parts in original condition. A 15% restocking fee applies.</li>
+                    <li><strong>Custom CNC / Topology Parts:</strong> Custom engineered parts are <strong class="text-orange-500">non-refundable</strong>. However, if a part fails to meet the agreed-upon drawing specifications or the 0.01mm tolerance, URVARYS will remake and replace the non-conforming part at zero cost to you.</li>
+                </ul>
+            </div>
+        </section>
+
+    </main>
+</body>
+</html>
